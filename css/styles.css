@@ -19,6 +19,9 @@ body {
 .list {
     list-style: none;
 }
+.link {
+    text-decoration: none;
+}
 /* цвет основного текста #757575 */
 /* цвет вторичного текста #212121 */
 /* цвет текста лого #000000 */
@@ -197,9 +200,9 @@ address {
 .adress-map {
     color: var(--white-color);
 }
-address .link{
+/*address .link{
     text-decoration: none;
-}
+}*/
 
 /*Portfolio page*/
 .galery .link {
@@ -208,6 +211,7 @@ address .link{
 .portfolio-btn {
     background-color: var(--background-color-reserve);
     color: var(--title-text-color);
+    font-family: inherit;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
